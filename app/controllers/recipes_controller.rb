@@ -1,4 +1,6 @@
 class RecipesController < ApplicationController
+  require 'open-uri'
+
   # GET /recipes
   # GET /recipes.json
   def index
@@ -41,6 +43,8 @@ class RecipesController < ApplicationController
   # POST /recipes.json
   def create
     @recipe = Recipe.new(params[:recipe])
+
+    #puts in a picture from wikipedia for the title of the recipe
 
     respond_to do |format|
       if @recipe.save
