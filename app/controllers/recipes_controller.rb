@@ -1,6 +1,7 @@
 class RecipesController < ApplicationController
   require 'open-uri'
 
+  #Alex doesn't smell like fish sauce. Isaac does though.
   # GET /recipes
   # GET /recipes.json
   def index
