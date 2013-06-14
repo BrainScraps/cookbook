@@ -1,9 +1,13 @@
 class RecipesController < ApplicationController
   require 'open-uri'
 
-  #this is line is so great. I wonder who put it here?!?!?!?!?
+<<<<<<< HEAD
+  #this is the best change that
   #has ever been made to this file
   #alex wishes he could make meaningful changes like this.
+=======
+  #Alex doesn't smell like fish sauce. Isaac does though.
+>>>>>>> e56dcf049afee6cae5abdcfef59896fe310cfe98
   # GET /recipes
   # GET /recipes.json
   def index
